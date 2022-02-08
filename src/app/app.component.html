@@ -1,0 +1,118 @@
+<h1>Hello Angular world</h1>
+<!-- <button (click)="backgroundToggle = !backgroundToggle">Toggle</button> -->
+
+<!-- ngStyle -->
+<!-- <div
+  [ngStyle]="{
+    width: '200px',
+    height: '200px',
+    borderRadius: '5px',
+    border: '1px solid #ccc',
+    background: backgroundToggle ? 'red' : 'blue'
+  }"
+></div> -->
+
+<!--  ngClass -->
+
+<!-- <p
+  [ngClass]="{
+    red: backgroundToggle,
+    blue: !backgroundToggle
+  }"
+>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, omnis.
+</p> -->
+
+<!-- <p [class.blue]="!backgroundToggle" [class.red]="backgroundToggle">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dicta.
+</p> -->
+
+<!-- ngIf -->
+<!-- <button (click)="toggle = !toggle">Toggle</button> -->
+<!--
+<p *ngIf="toggle; else blueP" class="red">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, dicta.
+</p>
+
+<ng-template #blueP>
+  <p class="blue">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, harum?
+  </p>
+</ng-template> -->
+
+<!-- ngSwitch -->
+
+<!-- <button (click)="toggle = 111">Set 111</button>
+<div [ngSwitch]="toggle">
+  <p *ngSwitchCase="true" class="red">Lorem, ipsum.</p>
+  <p *ngSwitchCase="false" class="blue">Lorem ipsum dolor sit.</p>
+  <p *ngSwitchDefault>Lorem, ipsum.</p>
+</div> -->
+
+<!-- ngFor -->
+
+<!--
+<ul>
+  <li *ngFor="let number of arr; let idx = index">
+    {{ idx + 1 }} <strong>{{ number }}</strong>
+  </li>
+</ul> -->
+
+<!-- <ul style="list-style: none">
+  <li *ngFor="let post of objs">
+    <p>
+      {{ post.title }} <b>{{ post.author }}</b>
+    </p>
+    <ul>
+      <li *ngFor="let comment of post.comments">
+        <div>
+          <small>{{ comment.name }}</small>
+          <p>{{ comment.text }}</p>
+        </div>
+      </li>
+    </ul>
+  </li>
+</ul> -->
+
+<!-- Pipes -->
+
+<p>{{ now | date: "long" | uppercase }}</p>
+
+<!-- <input type="text" [value]="title" (input)="onInput($event)" /> -->
+<!-- <input type="text" [(ngModel)]="title" />
+<p>{{ title }}</p> -->
+
+<!-- <p>{{ title }}</p>
+<p>
+  <strong>{{ number - 2 }}</strong>
+</p>
+<p>{{ arr }}</p>
+<p>{{ obj.b.c }}</p>
+<p>{{ 40 + 2 }}</p>
+<p>{{ "Hello " + "World" }}</p> -->
+<!-- <img [src]="img" alt="" /> -->
+<!-- <button (click)="onClick()">click me</button>
+
+<input
+  type="text"
+  (keyup.enter)="onInput($event)"
+  (blur)="onBlur(myInput.value)"
+  #myInput
+/> -->
+<!-- <input
+  type="text"
+  (keyup)="onInput($event)"
+  (blur)="onBlurEvent(myInput.value)"
+  #myInput
+/> -->
+<!-- <p>
+  <strong>{{ inputValue }}</strong>
+</p> -->
+
+<!-- <hr />
+<app-post></app-post> -->
+<!-- <app-post></app-post> -->
+
+<!-- <hr />
+
+<app-post4></app-post4> -->
