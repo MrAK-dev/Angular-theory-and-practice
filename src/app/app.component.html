@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Angular Services</h1>
+
+  <div class="card">
+    <h2>App Counter: {{ getCounterValue() }}</h2>
+
+    <button class="btn" (click)="increase()">+</button>
+    <button class="btn" (click)="decrease()">-</button>
+  </div>
+
+  <div class="card">
+    <h2>Local Counter: {{ getLocalCounterValue() }}</h2>
+
+    <button class="btn" (click)="increaseLocal()">+</button>
+    <button class="btn" (click)="decreaseLocal()">-</button>
+  </div>
+  <app-counter></app-counter>
+</div>
